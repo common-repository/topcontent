@@ -1,0 +1,176 @@
+.topcont, .topcont p{
+	font-size: 14px;
+}
+.topcont a {
+	color: #fc6c85;
+}
+
+.topcont h2 {
+	font-size: 22px;
+	line-height: 42px;
+	color: #4a4a4a;
+	font-weight: 400;
+}
+
+.topcont button {
+	height: 36px;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #fff;
+	color: #121212;
+	padding: 8px 16px;
+	border-radius: 40px;
+	font-weight: 500;
+}
+.topcont button:focus, .topcont button:hover {
+	border-color: #b5b5b5;
+	background-color: #f5f5f5;
+}
+
+.topcont input[type="text"] {
+	align-items: center;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #dbdbdb;
+	color: #121212;
+	display: inline-flex;
+	font-size: 14px;
+	height: 36px;
+	justify-content: flex-start;
+	line-height: 20px;
+	/*padding: 8px 16px;*/
+	vertical-align: top;
+	outline: 0!important;
+	box-shadow: none!important;
+}
+
+#topcont-tabs{
+	margin-top: 10px;
+}
+.topcont-message {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-left-width: 4px;
+	margin: 15px 0;
+	padding: 10px 15px;
+	display: none;
+}
+.topcont-message-ok {
+	border-left-color: #46b450;
+}
+.topcont-message-error {
+	border-left-color: #f44336;
+}
+.topcont-msg {
+	border: 1px solid #ccd0d4;
+	border-left-width: 4px;
+	margin: 15px 0;
+	padding: 7px 10px 8px;
+}
+.topcont-msg-ok {
+	border-left-color: #46b450;
+}
+.topcont-msg-error {
+	border-left-color: #f44336;
+}
+.topcont-hide {
+	display: none;
+}
+
+#topcont-tabs{
+	border-radius: 4px;
+	border: 1px solid #dbdbdb;
+}
+
+.topcont .ui-widget-header {
+	background: #fff;
+	border: none;
+}
+
+.topcont .ui-tabs .ui-tabs-nav li {
+	border: none;
+	background: #fff;
+	color: #b5b5b5;
+	font-size: 14px;
+	font-weight: 400;
+	/*line-height: 24px;*/
+}
+
+.topcont .ui-tabs .ui-tabs-nav li a{
+	color: #b5b5b5;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.topcont .ui-tabs .ui-tabs-nav li:hover a{
+	color: #fc6c85;
+}
+
+.topcont .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	color: #121212;
+}
+
+.topcont a:focus, .topcont a:focus .media-icon img {
+	box-shadow: none;
+}
+
+.topcont-logo {
+	height:20px;
+	width: 168px;
+	padding: 8px 15px;
+}
+
+/** v 1.2: */
+
+.topcont-w-100 {
+	width: 100% !important;
+}
+
+.topcont-h-100px {
+	height: 100px !important;
+}
+
+.topcont-centered {
+	text-align: center !important;
+}
+
+table.topcont-table {
+	width: 100% !important;
+}
+
+table.topcont-table td {
+	vertical-align: top !important;
+}
+
+table.topcont-table td:first-child {
+	padding-right: 5px;
+}
+
+table.topcont-table td:last-child {
+	padding-left: 5px;
+}
+
+table.topcont-table td:not(:first-child):not(:last-child) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+button.topcont-button {
+	padding: 8px 16px;
+	border-radius: 4px;
+	height: 32px;
+	cursor: pointer;
+}
+
+button.topcont-delete-button {
+	background: #f44336;
+	border-color: #f44336;
+	color: #fff;
+}
+
+button.topcont-delete-button:hover {
+	background: #e53935;
+	border-color: #e53935;
+}
